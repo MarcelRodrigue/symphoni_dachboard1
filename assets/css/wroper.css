@@ -1,0 +1,59 @@
+
+#page-wrapper{
+	display: none;
+}
+#navPanel{
+display: none;
+}
+:root{
+	--primary_clr:#1d4acc;
+}
+body .mypage img{
+    margin-top: 5%;
+    height: 35%;
+    width: 35%;
+}
+body .mypage{
+display: flex;justify-content: center;align-items: center;color: #fff;
+}
+body .mypage h3{
+font-size: 2rem;font-family: Arial, Helvetica, sans-serif;color: #fff;text-shadow:  0 0 3px #000;
+}
+.oop{
+display: flex;gap: 2rem; margin-bottom: 5%;
+}
+
+
+.mypage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+	height: 100vh;
+	background: linear-gradient(0deg, rgba(1, 1, 1, 0.7), rgba(0, 0, 0, 0.665)), url(./images/banner-image.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 12em 0 20em 0;
+	text-align: center;
+    overflow: hidden;
+
+}
+.mypage .mu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.mypage .mu h3{
+    text-align: center;
+}
+.mypage i{
+    color: rgb(47, 245, 47);
+    transform: scale(.9);
+}
+.chev i{
+    color: #fff;
+    transform: scale(.7);
+    }
